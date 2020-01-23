@@ -1,5 +1,6 @@
 #!/bin/bash
 
+apt -y autoremove
 apt install -y build-essential libncurses5-dev
 apt -y build-dep linux
 
